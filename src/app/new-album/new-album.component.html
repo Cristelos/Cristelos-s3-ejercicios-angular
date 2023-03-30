@@ -1,0 +1,8 @@
+<div class="albumNuevo">
+    <h3>Sube un album nuevo</h3>
+    <input #title type="text" placeholder="Título" />
+    <input #group type="text" placeholder="Grupo" />
+    <input #img type="text"  placeholder="Imagen"/>
+    <input #genre type="text" placeholder="Género musical" />
+    <button (click)="sendNewAlbum({title: title.value, group: group.value, img: img.value, genre: genre.value})">Subir</button>
+</div>

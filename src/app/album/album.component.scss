@@ -1,0 +1,20 @@
+.discos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .album{
+        width: 200px;
+    }
+
+    .portadas{
+        width: 200px;
+    }
+    h3{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+}

@@ -1,0 +1,25 @@
+.albumNuevo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 37%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    input{
+        padding: 8px;
+        border: none;
+        border-bottom: 1px solid #949393;
+    }
+    button{
+        padding: 10px;
+        border: none;
+        background-color: #2ec1fc;
+        border-radius: 4px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+    button:hover{
+        background-color: #2e80fc;
+    }
+}

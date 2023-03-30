@@ -1,0 +1,8 @@
+<div class="discos">
+    <div *ngFor="let musica of album" class="album">
+        <img src="{{musica.img}}" class="portadas">
+        <h3>{{musica.title}}</h3>
+        <p>{{musica.group}}</p>
+        <p>{{musica.genre}}</p>
+    </div>
+</div>
